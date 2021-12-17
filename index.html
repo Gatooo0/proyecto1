@@ -5,13 +5,189 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eterlife</title>
+    <meta name="description" content="Eternal">
+    <meta name="keywords" content="">
+    <title>Eternal</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./scss/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
 </head>
 
 <body>
-    <header>
-        <h1>Eterlife</h1>
-    </header>
+    <!-- Inicio Menu de Navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-light navegBar">
+        <div class="container-fluid menuNav">
+            <a class="navbar-brand" href="index.html">
+                <img src="./img/logo.JPG" alt="logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" style="background-color: rgba(255, 114, 44, 0.8);" aria-current="page"
+                            href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./html/tienda.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./html/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./html/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Fin Menu de Navegacion -->
+
+    <!-- Inicio Header -->
+    <header class="banner container-fluid" id="inicio"></header>
+    <!-- Fin Header -->
+
+    <!-- Inicio Tienda -->
+    <section class="tienda container-fluid">
+        <div class="tiendaTitulo">
+            <h1 class="tituloGrande">Stanley Martin Lieber</h1>
+        </div>
+        <!-- Inicio Productos -->
+        <!-- Inicio Grilla de Productos -->
+        <div class="grilla row">
+            <div class="cajita col">
+                <img src="./img/Stan-Lee.jpg" alt="img1">
+            </div>
+
+            <div class="cajita col">
+                <img src="./img/hulk-thor.jpg" alt="img2">
+            </div>
+
+            <div class="cajita col">
+                <img src="./img/pareja.jpg" alt="img3">
+            </div>
+
+            <div class="cajita col">
+                <img src="./img/spiderman.png" alt="img4">
+            </div>
+            <div class="cajita col">
+                <img src="./img/guardianes.jpg" alt="img5">
+            </div>
+
+            <div class="cajita col">
+                <img src="./img/ironman.jpg" alt="img6">
+            </div>
+
+            <div class="cajita col">
+                <img src="./img/thor.jpg" alt="img7">
+            </div>
+
+            <div class="cajita col">
+                <img src="./img/widow.jpg" alt="img8">
+            </div>
+
+            </div>
+        </div>
+        <!-- Fin Grilla de Productos -->
+    </section>
+    <!-- Fin Tienda -->
+
+    <!-- Inicio Footer -->
+    <footer>
+        <div class="container text-center text-md-left">
+            <div class="row">
+                <!-- Inicio Navegacion -->
+                <div class="footerNav col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+                    <h3 class="text-uppercase mb-4 footerTitulo">Navegación</h3>
+                    <ul class="list-unstyled">
+                        <li>
+                            <p>
+                                <a href="./index.html">Inicio</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="./html/tienda.html">Galeria</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="./html/nosotros.html">Nosotros</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <a href="./html/contacto.html">Contacto</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Fin Navegacion -->
+                <hr class="clearfix w-100 d-md-none">
+                <!-- Inicio Contacto -->
+                <div class="footerCont col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+                    <h3 class="font-weight-bold text-uppercase mb-4 footerTitulo">Información de Contacto</h3>
+                    <ul class="list-unstyled">
+                        <li>
+                            <p>
+                                <i class="fas fa-home mr-3"></i>Dirección: Calle Sin Numero 123 Oeste San Juan
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="fas fa-envelope mr-3"></i> Mail: direccion@gmail.com
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="fas fa-phone mr-3"></i>Teléfono: +54 264xxxxxxx
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Fin Contacto -->
+                <hr class="clearfix w-100 d-md-none">
+                <!-- Inicio Redes -->
+                <div class="footerRed col-md-2 col-lg-2 text-center mx-auto my-4">
+                    <h3 class="text-uppercase mb-4 footerTitulo">Seguinos en Nuestras Redes</h3>
+                    <!-- Facebook -->
+                    <a href="" type="button"
+                        class="btn-face" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <!-- Instagram -->
+                    <a href="/" type="button" class="btn-insta" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <!-- WhatsApp -->
+                    <a href=""
+                        type="button" class="btn-wsp" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+                <!-- Fin Redes -->
+            </div>
+        </div>
+        <!-- Inicio Copyright -->
+        <div class="footerCopy text-center py-3">
+            <a>© 2021 Copyright: López Gastón</a>
+        </div>
+        <!-- Fin Copyright -->
+    </footer>
+    <!-- Fin Footer -->
 </body>
+
+<script src="https://kit.fontawesome.com/c091e997ce.js" crossorigin="anonymous"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
 
 </html>
