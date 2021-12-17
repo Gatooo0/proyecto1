@@ -191,16 +191,10 @@ body {
 
 .grilla img:hover {
   border-style: double;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   -webkit-box-shadow: 0 0 10px 0 #19647E;
           box-shadow: 0 0 10px 0 #19647E;
-}
-
-.grilla p {
-  font-size: 2rem;
-  padding: 1.5rem 0 1.5rem 0;
-  text-align: center;
 }
 
 /* ----------FOOTER---------- */
