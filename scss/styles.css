@@ -1,4 +1,8 @@
 @charset "UTF-8";
+/* Medidas */
+/* Celular: 586px */
+/* Tablet: 768px */
+/* PC: 992px */
 /* ----------RESETEO---------- */
 * {
   padding: 0px;
@@ -137,6 +141,20 @@ body {
   padding-bottom: 2rem;
 }
 
+.mensaje {
+  border: solid black;
+  overflow: hidden;
+  background-image: linear-gradient(-60deg, #008575 0%, #545454 100%);
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  margin: 0 1rem 0 1rem;
+}
+
+.mensaje p {
+  text-align: justify;
+  font-size: large;
+  color: #ffffff;
+}
+
 .grilla {
   border: solid black;
   overflow: hidden;
@@ -200,7 +218,7 @@ body {
 /* ----------FOOTER---------- */
 footer {
   background-color: #545454;
-  max-height: 40vh;
+  /* max-height: 40vh;*/
 }
 
 .footerTitulo {
