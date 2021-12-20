@@ -14,7 +14,8 @@
 /* ----------BODY---------- */
 body {
   font-family: 'Gemunu Libre', sans-serif;
-  background-color: #b3a77d;
+  /*background-color: #b3a77d;*/
+  background-color: #7b9ef6;
 }
 
 /*----------IMPORTS----------*/
@@ -34,7 +35,7 @@ body {
   position: sticky;
   top: 0;
   width: 100%;
-  height: 10vh;
+  height: 12vh;
   background-color: var(--bs-body-bg);
   background-color: rgba(128, 128, 128, 0.3);
   -webkit-backdrop-filter: blur(15px);
@@ -50,10 +51,12 @@ body {
   z-index: 10;
 }
 
-.menuNav {
-  width: 80%;
-}
-
+/*.menuNav{
+    width: 80%;
+  } */
+/*.menuNav img{
+    height: 60px;
+  }*/
 @media (max-width: 991px) {
   .menuNav {
     background-color: rgba(255, 255, 255, 0.315);
@@ -142,23 +145,21 @@ body {
 }
 
 .mensaje {
-  border: solid black;
   overflow: hidden;
-  background-image: linear-gradient(-60deg, #008575 0%, #545454 100%);
+  background-image: linear-gradient(-60deg, #7b9ef6 0%, #545454 100%);
   padding: 1rem 1.5rem 1rem 1.5rem;
-  margin: 0 1rem 0 1rem;
+  margin: 1rem 1rem;
 }
 
 .mensaje p {
   text-align: justify;
-  font-size: large;
+  font-size: x-large;
   color: #ffffff;
 }
 
 .grilla {
-  border: solid black;
   overflow: hidden;
-  background-image: linear-gradient(-60deg, #008575 0%, #545454 100%);
+  background-image: linear-gradient(-60deg, #7b9ef6 0%, #545454 100%);
   padding: 1rem 1.5rem 1rem 1.5rem;
   margin: 0 1rem 0 1rem;
   height: 100%;
